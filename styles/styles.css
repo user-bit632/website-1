@@ -1,3 +1,102 @@
 body {
 	background-image: url("../images/background.jpg");
 }
+
+.nav {
+	border-radius: 12px;
+	border: 2px solid;
+	margin: 12px;
+	padding: 16px;
+}
+
+.nav-button {
+	text-decoration: none;
+	background-color: pink;
+	color: black;
+	padding: 4px;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 4px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.contents-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.contents-left-col {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.contents-right-col {
+	width: 20%;
+	float: right;
+	text-align: center;
+}
+
+.commands-text {
+	border: 2px solid;
+	border-radius: 6px;
+	background-color: orange;
+}
+
+
+.buttons-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 128px;
+}
+
+.buttons-left-col {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.buttons-right-col {
+	width: 25%;
+	float: right;
+	text-align: center;
+}
+
+.black-button {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 4px;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 4px;
+}
+
+
+.commands-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.commands-left-col {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+.commands-right-col {
+	width: 40%;
+	float: right;
+	text-align: center;
+}
+
+.logo-attribution {
+	margin-top: 32px;
+}
