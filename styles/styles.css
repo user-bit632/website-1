@@ -19,7 +19,7 @@ body {
 	border-radius: 4px;
 }
 
-.header {
+.center {
 	text-align: center;
 }
 
@@ -68,7 +68,7 @@ body {
 	text-align: center;
 }
 
-.a-button {
+.black-button {
 	text-decoration: none;
 	background-color: black;
 	color: white;
@@ -76,4 +76,23 @@ body {
 	border: 2px solid;
 	border-color: black;
 	border-radius: 4px;
+}
+
+
+.commands-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.commands-left-col {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+.commands-right-col {
+	width: 40%;
+	float: right;
+	text-align: center;
 }
